@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Studio 2017 - Developer Bundle Edition (Education) 15.1.16.7872 (https://www.liquid-technologies.com) -->
+<claim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\EI\Labs\ClaimManager\Claim_Personal_Accident.xsd">
+    <policy_information>
+        <policy_no>Test</policy_no>
+        <policyholder_name>Test</policyholder_name>
+    </policy_information>
+    <name>Test</name>
+    <nric>Test</nric>
+    <dob>2002-09-24</dob>
+    <sex>Male</sex>
+    <contact_no>
+        <handphone>61239178</handphone>
+        <office>61239178</office>
+        <home>61239178</home>
+    </contact_no>
+    <email>Test@test.com</email>
+    <address>Test</address>
+    <occupation>Test</occupation>
+    <salary>142.141</salary>
+    <accident_info>
+        <date>2002-09-24</date>
+        <time>09:00:00</time>
+        <nature_of_accident></nature_of_accident>
+        <description></description>
+    </accident_info>
+    <doctor_info>
+        <name></name>
+    </doctor_info>
+</claim>

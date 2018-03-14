@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid Studio 2017 - Developer Bundle Edition (Education) 15.1.16.7872 (https://www.liquid-technologies.com)-->
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="claim">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="policy_information" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="policy_no" type="xs:string" minOccurs="0" />
+                            <xs:element name="policyholder_name" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="nric" type="xs:string" minOccurs="0" />
+                <xs:element name="dob" type="xs:date" minOccurs="0" />
+                <xs:element name="sex" type="xs:string" minOccurs="0" />
+                <xs:element name="contact_no" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="handphone" type="xs:integer" minOccurs="0" />
+                            <xs:element name="office" type="xs:integer" minOccurs="0" />
+                            <xs:element name="home" type="xs:integer" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="address" type="xs:string" minOccurs="0" />
+                <xs:element name="occupation" type="xs:string" minOccurs="0" />
+                <xs:element name="salary" type="xs:double" minOccurs="0" />
+                <xs:element name="accident_info" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="date" type="xs:date" minOccurs="0" />
+                            <xs:element name="time" type="xs:time" minOccurs="0" />
+                            <xs:element name="nature_of_accident" type="xs:string" minOccurs="0" />
+                            <xs:element name="description" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="doctor_info" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

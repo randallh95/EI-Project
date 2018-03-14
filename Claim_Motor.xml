@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Studio 2017 - Developer Bundle Edition (Education) 15.1.16.7872 (https://www.liquid-technologies.com) -->
+<claim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\EI\Labs\ClaimManager\Claim.xsd">
+    <policy_information>
+        <policy_no>string</policy_no>
+    </policy_information>
+    <driver_details>
+        <name>string</name>
+        <nric>string</nric>
+        <contact_no>7468</contact_no>
+        <email>string</email>
+        <occupation>string</occupation>
+    </driver_details>
+    <description>
+        <time>00:17:49.21</time>
+    </description>
+</claim>
